@@ -11,4 +11,4 @@ symbols = string.punctuation
 all = string.ascii_letters + string.digits + string.punctuation
 password = "".join(random.sample(all,14))
 
-print("Your password:" + password)
+print(password)
